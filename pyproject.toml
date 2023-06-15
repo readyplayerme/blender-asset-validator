@@ -26,7 +26,7 @@ classifiers = [
 dependencies = ['importlib-metadata; python_version<"3.7"', 
 "pyblish", 
 "pyblish-simple @ git+https://github.com/hannesdelbeke/pyblish-simple",
-"pyblish-plugin-manager @ git+https://github.com/hannesdelbeke/pyblish-plugin-manager",
+"pyblish-config @ git+https://github.com/hannesdelbeke/pyblish-plugin-manager",
 "Qt5.py",
 "numpy"
 ]
