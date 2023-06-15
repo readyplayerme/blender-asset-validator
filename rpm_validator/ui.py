@@ -123,6 +123,7 @@ def show(parent=Qt5.QtWidgets.QApplication.instance().blender_widget):
         app = Qt5.QtWidgets.QApplication([])
         new_app_created = True
 
+    global window  # prevent widget being garbage collected
     window = ValidatorSimpleUI(parent=parent)
     window.show()
 
