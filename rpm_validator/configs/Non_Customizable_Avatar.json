@@ -1,0 +1,57 @@
+{
+
+    "CollectBlenderCurrentFile": {},
+    "CollectCurrentDate": {},
+    "CollectCurrentUser": {},
+    "CollectCurrentWorkingDirectory": {},
+    "CollectAnimations": {},
+    "CollectAssetType": {},
+    "CollectCollections": {},
+    "CollectMaterials": {},
+    "CollectMeshes": {},
+    "CollectObjects": {},
+    "CollectRigs": {},
+    "CollectTextures": {},
+    "CollectTotalTriangleCount":{},
+    
+    "AnimationsInFile":{},
+    "MaterialBackfaceCulling": {},
+    "MaterialDiffuse": {},
+    "MaterialSamplerWrapping": {},
+    "MaterialSpecular": {},
+    "MaterialUseNodes": {},
+    "MeshSkinBoneInfluences": {},
+    "MeshSkinWeightsNormalization": {},
+    "MeshTopologyZeroLengthEdges": {},
+    "MeshTopologyLooseEdges": {},
+    "MeshTopologyNGons": {},
+    "MeshTopologyNonManifold": {},
+    "MeshTopologyPolygonArea": {},
+    "MeshUVMapCount": {},
+    "MeshUVMapRange": {},
+    "MeshVertexColors": {},
+    "ObjectHierarchyChildren": {},
+    "ObjectHierarchyParent": {},
+    "ObjectMode": {},
+    "ObjectTransforms": {},
+    "RigCount": {},
+    "RigHierarchyParent": {},
+    "TextureResolutionBudget": {},
+    "TextureEmbedding": {},
+    "TextureResolutionPowerOfTwo": {},
+    "TextureResolutionSquare": {},
+    "NamingConvention": {
+        "current_piece": ["EyeLeft","EyeRight","Wolf3D_Outfit_Footwear","Wolf3D_Body_Custom", "Wolf3D_Outfit_Bottom", "Wolf3D_Outfit_Top", "Wolf3D_Body_Custom", "Wofl3D_Skin", "Wolf3D_Head_Custom","Wolf3D_Teeth"]
+    },
+    "MeshTriangleCount":{},
+    "TotalTriangleCount":{
+        "budget" : 27000
+    },
+    "CheckRequiredElements" :{
+        "pieces" : ["Wolf3D_Outfit_Footwear", "Wolf3D_Outfit_Bottom", "Wolf3D_Outfit_Top", "Wolf3D_Body_Custom","Wolf3D_Head_Custom"]
+    },
+    "MeshUVFaceArea": {},
+    "MeshUVMapName": {
+        "map_name": "UVMap"
+    }
+}

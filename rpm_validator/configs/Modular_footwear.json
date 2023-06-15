@@ -1,0 +1,52 @@
+{
+
+    "CollectBlenderCurrentFile": {},
+    "CollectCurrentDate": {},
+    "CollectCurrentUser": {},
+    "CollectCurrentWorkingDirectory": {},
+    "CollectAnimations": {},
+    "CollectAssetType": {},
+    "CollectCollections": {},
+    "CollectMaterials": {},
+    "CollectMeshes": {},
+    "CollectObjects": {},
+    "CollectRigs": {},
+    "CollectTextures": {},
+    
+    "AnimationsInFile":{},
+    "MaterialBackfaceCulling": {},
+    "MaterialDiffuse": {},
+    "MaterialSamplerWrapping": {},
+    "MaterialSpecular": {},
+    "MaterialUseNodes": {},
+    "MeshSkinBoneInfluences": {},
+    "MeshSkinWeightsNormalization": {},
+    "MeshTopologyZeroLengthEdges": {},
+    "MeshTopologyLooseEdges": {},
+    "MeshTopologyNGons": {},
+    "MeshTopologyNonManifold": {},
+    "MeshTopologyPolygonArea": {},
+    "MeshUVMapCount": {},
+    "MeshUVMapRange": {},
+    "MeshVertexColors": {},
+    "ObjectHierarchyChildren": {},
+    "ObjectHierarchyParent": {},
+    "ObjectMode": {},
+    "ObjectTransforms": {},
+    "RigCount": {},
+    "RigHierarchyParent": {},
+    "TextureResolutionBudget": {},
+    "TextureEmbedding": {},
+    "TextureResolutionPowerOfTwo": {},
+    "TextureResolutionSquare": {},
+    "NamingConvention": {
+        "current_piece": "Wolf3D_Outfit_Footwear"
+    },
+    "MeshTriangleCount":{
+        "budget" : 2000
+    },
+    "MeshUVFaceArea": {},
+    "MeshUVMapName": {
+        "map_name": "UVMap"
+    }
+}

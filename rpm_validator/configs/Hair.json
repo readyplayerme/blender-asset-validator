@@ -1,0 +1,53 @@
+{
+
+    "CollectBlenderCurrentFile": {},
+    "CollectCurrentDate": {},
+    "CollectCurrentUser": {},
+    "CollectCurrentWorkingDirectory": {},
+    "CollectAnimations": {},
+    "CollectAssetType": {},
+    "CollectCollections": {},
+    "CollectMaterials": {},
+    "CollectMeshes": {},
+    "CollectObjects": {},
+    "CollectTextures": {},
+    "CollectScenes":{},
+    "CollectTotalTriangleCount":{},
+    
+    
+    "AnimationsInFile":{},
+    "MaterialBackfaceCulling": {},
+    "MaterialDiffuse": {},
+    "MaterialSamplerWrapping": {},
+    "MaterialSpecular": {},
+    "MaterialUseNodes": {},
+    "MeshTopologyZeroLengthEdges": {},
+    "MeshTopologyLooseEdges": {},
+    "MeshTopologyNGons": {},
+    "MeshTopologyNonManifold": {},
+    "MeshTopologyPolygonArea": {},
+    "MeshUVMapCount": {},
+    "MeshUVMapRange": {},
+    "MeshVertexColors": {},
+    "ObjectHierarchyChildren": {},
+    "ObjectHierarchyParent": {},
+    "ObjectMode": {},
+    "ObjectTransforms": {},
+    "TextureResolutionBudget": {},
+    "TextureEmbedding": {},
+    "TextureResolutionPowerOfTwo": {},
+    "TextureResolutionSquare": {},
+    "NamingConvention": {
+        "current_piece": ["Wolf3D_Hair"]
+    },
+    "MeshTriangleCount":{
+        "budget" : 3000
+    },
+    "CheckRequiredElements" :{
+        "pieces" : ["Wolf3D_Hair"]
+    },
+    "MeshUVFaceArea": {},
+    "MeshUVMapName": {
+        "map_name": "UVMap"
+    }
+}
