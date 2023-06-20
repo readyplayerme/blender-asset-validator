@@ -4,14 +4,14 @@ requires = ["setuptools", "setuptools-scm"]
 
 
 [tool.setuptools]
-packages = ["rpm_validator", "rpm_pyblish_plugins"]
+packages = ["rpm_validator", "rpm_pyblish_plugins", "rpm_validator_addon"]
 
 
 [project]
 name = "rpm-validator"
 authors = [
-    {name = "Hannes"},
     {name = "Olaf"},
+    {name = "Hannes"},
     {name = "Daniel"},
 ]
 description = "a validator for your Ready Player Me assets"
