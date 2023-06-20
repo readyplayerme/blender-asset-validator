@@ -1,3 +1,14 @@
+bl_info = {
+    "name": "Ready Player Me Validator",
+    "description": "Validate your Ready Player Me avatar in Blender",
+    "author": "Ready Player Me",
+    "version": (0, 0, 1),
+    "blender": (2, 91, 0),
+    "location": "Window/RPM Validator",
+    "category": "Development",
+}
+
+
 # get file path and add to sys.path, so modules can be imported
 import sys
 from pathlib import Path
