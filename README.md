@@ -42,8 +42,7 @@ import pyblish.util
 # register rpm plugins
 # this is done automatically if you use the RPM addon or script file path
 import rpm_pyblish_plugins
-plugin_path = Path(rpm_pyblish_plugins.__file__).parent
-pyblish.api.register_plugin_path(plugin_path) # todo move to rpm_pyblish_plugins
+rpm_pyblish_plugins.register()
 
 # discover the validation plugins
 plugins = pyblish.api.discover()
