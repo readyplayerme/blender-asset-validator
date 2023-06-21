@@ -1,8 +1,11 @@
 # rpm-blender-validator
-The Python Blender validator code for your RPM content.
+This repo contains the Python Blender validator tool, whichs helps you with creating your RPM content in Blender.  
+See the docs for the [Blender validation](https://docs.readyplayer.me/asset-creation-guide/validation/validation-tool-for-blender)
 
 - rpm_pyblish_plugins: Pyblish validation plugins & fix actions
 - rpm_validator: custom Pyblish UI
+- rpm_validator_addon: blender addon code
+- __init__.py : blender addon hookup code, containing `bl_info`
 
 ## Install
 This repo can be installed either as a Blender add-on, or through PIP. 
