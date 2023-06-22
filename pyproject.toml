@@ -40,6 +40,6 @@ version = "0.0.1"
 #[project.scripts]
 #my-script = "my_package.module:function"
 
-[project.urls]
+# [project.urls]
 # Homepage = "https://github.com/.."
 # Source = "https://github.com/.."
