@@ -1,4 +1,6 @@
 # rpm-blender-validator
+![image](https://github.com/readyplayerme/rpm-blender-validator/assets/104501614/4fdef959-cadd-4ecd-bdef-94d0684a1105)
+
 This repo contains the Python Blender validator tool, whichs helps you with creating your RPM content in Blender.  
 See the docs for the [Blender validation](https://docs.readyplayer.me/asset-creation-guide/validation/validation-tool-for-blender)  
 see the doc for the [blender validation checks](https://docs.readyplayer.me/asset-creation-guide/validation/validation-checks)  
