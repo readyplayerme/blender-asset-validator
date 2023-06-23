@@ -41,7 +41,7 @@
     "TextureResolutionPowerOfTwo": {},
     "TextureResolutionSquare": {},
     "NamingConvention": {
-        "current_piece": ["EyeLeft","EyeRight","Wolf3D_Outfit_Footwear","Wolf3D_Body_Custom", "Wolf3D_Outfit_Bottom", "Wolf3D_Outfit_Top", "Wolf3D_Body_Custom", "Wofl3D_Skin", "Wolf3D_Head_Custom","Wolf3D_Teeth"]
+        "current_piece": ["EyeLeft","EyeRight","Wolf3D_Outfit_Footwear","Wolf3D_Body_Custom", "Wolf3D_Outfit_Bottom", "Wolf3D_Outfit_Top", "Wolf3D_Body_Custom", "Wolf3D_Skin", "Wolf3D_Head_Custom","Wolf3D_Teeth"]
     },
     "MeshTriangleCount":{},
     "TotalTriangleCount":{
