@@ -1,5 +1,5 @@
 pyblish
-git+https://github.com/hannesdelbeke/pyblish-simple
+pyblish-simple
 git+https://github.com/hannesdelbeke/pyblish-plugin-manager
 Qt5.py
 numpy
