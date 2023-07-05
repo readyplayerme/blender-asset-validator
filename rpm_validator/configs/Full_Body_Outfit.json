@@ -12,9 +12,7 @@
     "CollectObjects": {},
     "CollectRigs": {},
     "CollectTextures": {},
-    "CollectScenes":{},
     "CollectTotalTriangleCount":{},
-    
     
     "AnimationsInFile":{},
     "MaterialBackfaceCulling": {},
@@ -43,22 +41,23 @@
     "TextureResolutionPowerOfTwo": {},
     "TextureResolutionSquare": {},
     "NamingConvention": {
-        "current_piece": ["Wolf3D_Outfit_Footwear", "Wolf3D_Outfit_Bottom", "Wolf3D_Outfit_Top", "Wolf3D_Body", "Wofl3D_Skin"]
+        "current_piece": ["EyeLeft","EyeRight","Wolf3D_Outfit_Footwear","Wolf3D_Body_Custom", "Wolf3D_Outfit_Bottom", "Wolf3D_Outfit_Top", "Wolf3D_Body_Custom", "Wolf3D_Skin", "Wolf3D_Head_Custom","Wolf3D_Teeth"]
     },
     "MeshTriangleCount":{},
-    "MeshSkinBoneNames":{},
     "TotalTriangleCount":{
-        "budget" : 20000
-        
+        "budget" : 27000
     },
     "CheckRequiredElements" :{
-        "pieces" : ["Wolf3D_Outfit_Footwear", "Wolf3D_Outfit_Bottom", "Wolf3D_Outfit_Top", "Wolf3D_Body"]
+        "pieces" : ["Wolf3D_Outfit_Footwear", "Wolf3D_Outfit_Bottom", "Wolf3D_Outfit_Top", "Wolf3D_Body_Custom","Wolf3D_Head_Custom"]
     },
     "MeshUVFaceArea": {},
     "MeshUVMapName": {
         "map_name": "UVMap"
     },
     "MeshSkin": {
-        "skinned_mesh" :["Wolf3D_Body", "Wolf3D_Outfit_Top", "Wolf3D_Outfit_Bottom", "Wolf3D_Outfit_Footwear" ]
+        "skinned_mesh" :["Wolf3D_Outfit_Footwear", "Wolf3D_Outfit_Bottom", "Wolf3D_Outfit_Top", "Wolf3D_Body_Custom","Wolf3D_Head_Custom"]
+    },
+    "MeshArmature" : {
+        "skinned_meshes" :["Wolf3D_Outfit_Footwear", "Wolf3D_Outfit_Bottom", "Wolf3D_Outfit_Top", "Wolf3D_Body_Custom","Wolf3D_Head_Custom"]
     }
 }
