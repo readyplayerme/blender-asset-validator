@@ -8,8 +8,12 @@
     "CollectAssetType": {},
     "CollectCollections": {},
     "CollectMaterials": {},
-    "CollectMeshes": {},
-    "CollectObjects": {},
+    "CollectMeshes": {
+        "skinned_meshes" : true
+    },
+    "CollectObjects": {
+        "skinned_meshes" : true
+    },
     "CollectRigs": {},
     "CollectTextures": {},
     
@@ -48,5 +52,7 @@
     "MeshUVFaceArea": {},
     "MeshUVMapName": {
         "map_name": "UVMap"
-    }
+    },
+    "MeshSkin": {},
+    "ObjectArmature" : {}
 }

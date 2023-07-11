@@ -8,8 +8,12 @@
     "CollectAssetType": {},
     "CollectCollections": {},
     "CollectMaterials": {},
-    "CollectMeshes": {},
-    "CollectObjects": {},
+    "CollectMeshes": {
+        "skinned_meshes" : true
+    },
+    "CollectObjects": {
+        "skinned_meshes" : true
+    },
     "CollectRigs": {},
     "CollectTextures": {},
     "CollectScenes":{},
@@ -58,7 +62,6 @@
     "MeshUVMapName": {
         "map_name": "UVMap"
     },
-    "MeshSkin": {
-        "skinned_mesh" :["Wolf3D_Body", "Wolf3D_Outfit_Top", "Wolf3D_Outfit_Bottom", "Wolf3D_Outfit_Footwear" ]
-    }
+    "MeshSkin": {},
+    "ObjectArmature" : {}
 }
