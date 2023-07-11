@@ -6,9 +6,7 @@ from rpm_pyblish_plugins.shared_funcs import get_mesh_by_name, object_from_mesh
 
 
 class MeshArmature(pyblish.api.InstancePlugin):
-    """
-    Pyblish plugin to validate the presence of an armature modifier on a mesh instance.
-    """
+    """Pyblish plugin to validate the presence of an armature modifier on a mesh instance."""
 
     label = "Mesh Armature"
     version = (0, 1, 0)
