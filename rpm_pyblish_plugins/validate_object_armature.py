@@ -12,7 +12,7 @@ class ObjectArmature(pyblish.api.InstancePlugin):
     order = pyblish.api.ValidatorOrder
     hosts = ["blender"]
     optional = False
-    families = ["Object", "Rig"]
+    families = ["Object", "Rigged"]
     match = pyblish.api.Subset
     actions = [OpenURL]
 

@@ -11,7 +11,9 @@
     "CollectMeshes": {
         "skinned_meshes" : true
     },
-    "CollectObjects": {},
+    "CollectObjects": {
+        "skinned_meshes" : true
+    },
     "CollectRigs": {},
     "CollectTextures": {},
     
