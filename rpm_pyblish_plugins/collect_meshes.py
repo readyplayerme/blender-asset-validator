@@ -9,7 +9,7 @@ class CollectMeshes(pyblish.api.ContextPlugin):
     """Collect Mesh instances from the file."""
 
     label = "Mesh Instances"
-    version = (0, 2, 0)
+    version = (0, 3, 0)
     order = pyblish.api.CollectorOrder
     hosts = ["blender"]
     skinned_meshes = False

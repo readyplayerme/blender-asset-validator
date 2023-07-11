@@ -11,7 +11,7 @@ class CollectObjects(pyblish.api.ContextPlugin):
     """Collect object instances from the file."""
 
     label = f"Object Instances"
-    version = (0, 1, 0)
+    version = (0, 2, 0)
     order = pyblish.api.CollectorOrder
     hosts = ["blender"]
     skinned_meshes = False
