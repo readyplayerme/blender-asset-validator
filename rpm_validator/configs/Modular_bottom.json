@@ -8,7 +8,9 @@
     "CollectAssetType": {},
     "CollectCollections": {},
     "CollectMaterials": {},
-    "CollectMeshes": {},
+    "CollectMeshes": {
+        "skinned_meshes" : true
+    },
     "CollectObjects": {},
     "CollectRigs": {},
     "CollectTextures": {},
@@ -52,10 +54,8 @@
     "MeshSkin": {
         "skinned_mesh" :["Wolf3D_Outfit_Bottom"]
     },
-    "MeshArmature" : {
-        "skinned_meshes" :["Wolf3D_Outfit_Bottom"]
-    },
     "CheckRequiredElements" :{
         "pieces" : [ "Wolf3D_Outfit_Bottom"]
-    }
+    },
+    "ObjectArmature" : {}
 }
