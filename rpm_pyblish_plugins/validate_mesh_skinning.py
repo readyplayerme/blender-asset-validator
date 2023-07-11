@@ -1,5 +1,4 @@
 import numpy as np
-import rpm_pyblish_plugins.constants as const
 import pyblish.api
 from rpm_pyblish_plugins.action_plugin_openurl import OpenURL
 from rpm_pyblish_plugins.shared_funcs import get_mesh_by_name, get_skin_weights
