@@ -53,11 +53,9 @@
     "MeshUVMapName": {
         "map_name": "UVMap"
     },
-    "MeshSkin": {
-        "skinned_mesh" :["Wolf3D_Outfit_Bottom"]
-    },
     "CheckRequiredElements" :{
         "pieces" : [ "Wolf3D_Outfit_Bottom"]
     },
+    "MeshSkin": {},
     "ObjectArmature" : {}
 }
