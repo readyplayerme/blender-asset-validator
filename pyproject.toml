@@ -165,8 +165,8 @@ ignore = [
   "S110", "S112",
   # Ignore complexity
   "C901", "PLR0911", "PLR0912", "PLR0913", "PLR0915",
-  # Allow dynamically typed expressions (typing.Any) in type annotations
-  "ANN401",
+  # Exclude self, cls, args, kwargs from annotation, allow dynamically typed expressions (typing.Any) in type annotations
+  "ANN101", "ANN102", "ANN002", "ANN003", "ANN401",
   # Don't require documentation for every function parameter.
   "D417",
 ]
@@ -214,6 +214,9 @@ mypy-init-return = true
 allow-star-arg-any = true
 ignore-fully-untyped = true
 suppress-none-returning = true
+
+[tool.ruff.flake8-unused-arguments]
+ignore-variadic-names = true
 
 [tool.ruff.pycodestyle]
 ignore-overlong-task-comments = true
