@@ -1,0 +1,3 @@
+pyblish-base>=1.8.11
+readyplayerme.pyblish_plugins @ https://github.com/readyplayerme/pyblish-plugins/archive/v0.0.2.zip
+pyblish-config @ https://github.com/hannesdelbeke/pyblish-plugin-manager/archive/0.0.1.zip

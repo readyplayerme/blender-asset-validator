@@ -1,4 +1,0 @@
-pyblish
-pyblish-simple==0.0.2
-pyblish-config==0.0.1
-Qt5.py
