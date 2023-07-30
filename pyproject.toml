@@ -101,7 +101,7 @@ dependencies = [
   "docstr-coverage>=2.3.0",
 ]
 [tool.hatch.envs.lint.scripts]
-typing = "mypy --install-types --non-interactive {args:src/readyplayerme/pyblish_plugins tests}"
+typing = "mypy --install-types --non-interactive {args:src/readyplayerme.asset-validator tests}"
 style = [
   "ruff {args:.}",
   "black --check --diff {args:.}",
@@ -228,8 +228,6 @@ ignore-decorators = ["typing.overload"]
 
 
 [tool.mypy]
-plugins = ["pydantic.mypy"]
-
 follow_imports = "silent"
 warn_redundant_casts = true
 warn_unused_ignores = true
@@ -240,24 +238,17 @@ no_implicit_reexport = true
 # for strict mypy set to true:
 disallow_untyped_defs = false
 
-[tool.pydantic-mypy]
-init_forbid_extra = true
-init_typed = true
-warn_required_dynamic_aliases = true
-warn_untyped_fields = true
-
 [tool.coverage.run]
-source_pkgs = ["readyplayerme/pyblish_plugins", "tests"]
+source_pkgs = ["readyplayerme.asset-validator", "tests"]
 branch = true
 parallel = true
 omit = [
-  "src/readyplayerme/pyblish_plugins/__init__.py",
-  "src/readyplayerme/pyblish_plugins/__about__.py",
+  "src/readyplayerme.asset-validator/__init__.py",
 ]
 
 [tool.coverage.paths]
-readyplayerme_pylblish_plugins = ["src/readyplayerme/pyblish_plugins", "*/blender-asset-validator/src/readyplayerme/pyblish_plugins"]
-tests = ["tests", "*/pyblish_plugins/tests"]
+readyplayerme_asset_validator = ["src/readyplayerme.asset-validator", "*/blender-asset-validator/src/readyplayerme.asset-validator"]
+tests = ["tests", "*/readyplayerme.asset-validator/tests"]
 
 [tool.coverage.report]
 exclude_lines = [
