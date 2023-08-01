@@ -14,9 +14,9 @@ bl_info = {
 }
 
 
-def register():
+def register():  # noqa: D103
     ...
 
 
-def unregister():
+def unregister():  # noqa: D103
     ...

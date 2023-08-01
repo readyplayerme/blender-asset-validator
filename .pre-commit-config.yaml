@@ -3,6 +3,10 @@ repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.3.0
     hooks:
+      - id: check-toml
+      - id: check-yaml
+      - id: mixed-line-ending
+        args: ["--fix=lf"]
       # Ensures that a file is either empty, or ends with one newline.
       - id: end-of-file-fixer
 
@@ -30,10 +34,3 @@ repos:
     hooks:
       - id: docstr-coverage
         args: ["--verbose", "2"] # override the .docstr.yaml to see less output
-
-  # # Security and Vulnerability checks
-  # - repo: https://github.com/Lucas-C/pre-commit-hooks-bandit
-  #   rev: v1.0.6
-  #   hooks:
-  #   -   id: python-bandit-vulnerability-check
-  #       args: [--skip, "B101", --recursive, clumper]

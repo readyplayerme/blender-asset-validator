@@ -1,6 +1,5 @@
 paths: # list or string
-  - src/readyplayerme
-  - src/readyplayerme.asset_validator
+  - src/readyplayerme_asset_validator
 #badge: docs # Path to save SVG file
 exclude: .*/tests # regex
 verbose: 3 # int (0-4)

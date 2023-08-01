@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "readyplayerme.asset_validator"
+name = "readyplayerme_asset_validator"
 dynamic = ["version"]
 description = "Ready Player Me asset validation for Blender."
 readme = "README.md"
@@ -30,7 +30,7 @@ classifiers = [
 dependencies = [
   "pyblish-base>=1.8.11",
   "readyplayerme.pyblish_plugins @ https://github.com/readyplayerme/pyblish-plugins/archive/v0.0.2.zip",
-  "pyblish-config @ https://github.com/hannesdelbeke/pyblish-plugin-manager/archive/0.0.1.zip",
+  #"pyblish-config @ https://github.com/hannesdelbeke/pyblish-plugin-manager/archive/0.0.1.zip",  # https://github.com/hannesdelbeke/pyblish-config/issues/4
 ]
 
 [project.optional-dependencies]
@@ -38,11 +38,11 @@ tests = [
   "pytest",
 ]
 dev = [
-  "readyplayerme.asset_validator[tests]",
+  "readyplayerme_asset_validator[tests]",
   "pre-commit",
 ]
 devblend = [
-  "readyplayerme.asset_validator[dev]",
+  "readyplayerme_asset_validator[dev]",
   "bpy~=3.6.0"
 ]
 
@@ -52,16 +52,14 @@ Issues = "https://github.com/readyplayerme/blender-asset-validator/issues"
 Source = "https://github.com/readyplayerme/blender-asset-validator"
 
 [tool.hatch.version]
-path = "src/readyplayerme.asset_validator/__init__.py"
+path = "src/readyplayerme_asset_validator/__init__.py"
 pattern = ".*# __version__ = '(?P<version>[^']+)'.*"
 
-[tool.hatch.build]
-include = [
-  "src/readyplayerme/**/*.json",
-]
-
 [tool.hatch.build.targets.wheel]
-packages = ["src/readyplayerme"]
+packages = ["src/readyplayerme_asset_validator"]
+
+[tool.hatch.metadata]
+allow-direct-references = true
 
 [tool.hatch.envs.default]
 python = "3.10"
@@ -101,21 +99,25 @@ dependencies = [
   "docstr-coverage>=2.3.0",
 ]
 [tool.hatch.envs.lint.scripts]
-typing = "mypy --install-types --non-interactive {args:src/readyplayerme.asset-validator tests}"
+typing = "mypy --install-types --non-interactive {args:src/readyplayerme_asset_validator tests}"
 style = [
-  "ruff {args:.}",
+  "ruff check {args:.}",
   "black --check --diff {args:.}",
   "docstr-coverage {args:.}",
 ]
 fmt = [
   "black {args:.}",
-  "ruff --fix {args:.}",
+  "ruff --fix --exit-non-zero-on-fix {args:.}",
   "style",
 ]
 all = [
   "style",
   "typing",
 ]
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra --exit-zero"
 
 [tool.black]
 target-versions = ["py310"]
@@ -201,7 +203,9 @@ exclude = [
 ]
 
 [tool.ruff.isort]
-known-first-party = ["readyplayerme"]
+# Combine multiple `from foo import bar as baz` statements with the same source
+# (`foo`) into a single statement.
+combine-as-imports = true
 
 [tool.ruff.flake8-tidy-imports]
 ban-relative-imports = "all"
@@ -228,7 +232,6 @@ ignore-decorators = ["typing.overload"]
 [tool.ruff.per-file-ignores]
 # Tests can use magic values, assertions, and relative imports
 "tests/**/*" = ["PLR2004", "S101", "TID252"]
-
 
 [tool.mypy]
 follow_imports = "silent"
