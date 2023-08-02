@@ -30,7 +30,7 @@ classifiers = [
 dependencies = [
   "pyblish-base>=1.8.11",
   "readyplayerme.pyblish_plugins @ https://github.com/readyplayerme/pyblish-plugins/archive/v0.0.2.zip",
-  #"pyblish-config @ https://github.com/hannesdelbeke/pyblish-plugin-manager/archive/0.0.1.zip",  # https://github.com/hannesdelbeke/pyblish-config/issues/4
+  "pyblish-config>=0.0.2"
 ]
 
 [project.optional-dependencies]
@@ -95,7 +95,7 @@ detached = true
 dependencies = [
   "black>=23.7.0",
   "mypy>=1.4.1",
-  "ruff>=0.0.280",
+  "ruff>=0.0.282",
   "docstr-coverage>=2.3.0",
 ]
 [tool.hatch.envs.lint.scripts]
