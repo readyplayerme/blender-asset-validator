@@ -10,8 +10,10 @@ see the doc for the [blender validation checks](https://docs.readyplayer.me/asse
 - rpm_validator_addon: blender addon code
 - __init__.py : blender addon hookup code, containing `bl_info`
 
+
 ## Install
 This repo can be installed either as a Blender add-on, or through PIP. 
+
 
 #### Blender add-on (recommended)
 Installing as a Blender add-on
@@ -24,12 +26,17 @@ Instructions:
 - enable the add-on in blender
 - PIP install the dependencies from `requirements.txt`
 
-#### PIP
+
+#### PIP (advanced)
 Installing through PIP
 - installs the tool as a Python module
 - no option to disable, which means it won't accidentally be disabled
 - auto installs the dependencies
-- no menu button, but can be launched from the python console
+- no menu button, but can be launched from the python console with
+```python
+import rpm_validator
+rpm_validator.show()
+```
 
 Instructions:
 - PIP install the module from github
